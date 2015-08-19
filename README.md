@@ -1,7 +1,7 @@
 How to Make a Twitter Bot in Python
 ===================================
 
-* Make a virtualenv
+* Make a Python 3 virtualenv. If you want to use Python 2, you might have to modify some of the code.
 * Install [Tweepy](http://docs.tweepy.org/en/latest/getting_started.html): `pip install tweepy` or `pip install -r requirements.txt`
 * Get your Twitter API keys and put them in the `settings.py.txt` file. Change the name of `settings.py.txt` to `settings.py`. It will not be added to version control.
 * Open a Python terminal and type: `from bot import api`
